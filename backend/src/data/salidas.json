@@ -1,0 +1,14 @@
+[
+  { "id": 1, "empresa": "Transportes Río Itaya", "embarcacion": "Don José II", "tipo": "rapido", "destino": "Nauta", "puerto": "Puerto Productores", "fechaHora": "2026-11-09T06:30", "duracionHoras": 2, "precio": 20, "cupos": 30 },
+  { "id": 2, "empresa": "Fluvial Amazonas", "embarcacion": "Eduardo VII", "tipo": "lancha", "destino": "Yurimaguas", "puerto": "Puerto Henry", "fechaHora": "2026-11-09T18:00", "duracionHoras": 72, "precio": 120, "cupos": 150 },
+  { "id": 3, "empresa": "Expreso Marañón", "embarcacion": "Gilmer IV", "tipo": "rapido", "destino": "Requena", "puerto": "Puerto Henry", "fechaHora": "2026-11-10T05:00", "duracionHoras": 4, "precio": 70, "cupos": 40 },
+  { "id": 4, "empresa": "Trifrontera Express", "embarcacion": "Golfinho", "tipo": "rapido", "destino": "Santa Rosa", "puerto": "Puerto Henry", "fechaHora": "2026-11-10T05:30", "duracionHoras": 10, "precio": 200, "cupos": 45 },
+  { "id": 5, "empresa": "Transportes Río Itaya", "embarcacion": "Don José III", "tipo": "deslizador", "destino": "Nauta", "puerto": "Puerto Productores", "fechaHora": "2026-11-11T07:00", "duracionHoras": 2, "precio": 25, "cupos": 12 },
+  { "id": 6, "empresa": "Fluvial Amazonas", "embarcacion": "Eduardo VIII", "tipo": "lancha", "destino": "Pucallpa", "puerto": "Puerto Masusa", "fechaHora": "2026-11-12T16:00", "duracionHoras": 120, "precio": 180, "cupos": 200 },
+  { "id": 7, "empresa": "Expreso Marañón", "embarcacion": "Gilmer V", "tipo": "rapido", "destino": "Yurimaguas", "puerto": "Puerto Henry", "fechaHora": "2026-11-12T05:00", "duracionHoras": 24, "precio": 250, "cupos": 50 },
+  { "id": 8, "empresa": "Amazonas Veloz", "embarcacion": "Rey del Río", "tipo": "deslizador", "destino": "Requena", "puerto": "Puerto Bellavista Nanay", "fechaHora": "2026-11-13T06:00", "duracionHoras": 3, "precio": 85, "cupos": 10 },
+  { "id": 9, "empresa": "Trifrontera Express", "embarcacion": "Boto Rosado", "tipo": "rapido", "destino": "Caballococha", "puerto": "Puerto Henry", "fechaHora": "2026-11-14T05:30", "duracionHoras": 9, "precio": 180, "cupos": 40 },
+  { "id": 10, "empresa": "Navegación Loreto", "embarcacion": "Santa María", "tipo": "lancha", "destino": "Requena", "puerto": "Puerto Masusa", "fechaHora": "2026-11-15T14:00", "duracionHoras": 14, "precio": 45, "cupos": 100 },
+  { "id": 11, "empresa": "Navegación Loreto", "embarcacion": "Ribereño", "tipo": "lancha", "destino": "Santa Rosa", "puerto": "Puerto Masusa", "fechaHora": "2026-11-16T10:00", "duracionHoras": 48, "precio": 110, "cupos": 120 },
+  { "id": 12, "empresa": "Amazonas Veloz", "embarcacion": "Delfín Gris", "tipo": "deslizador", "destino": "Nauta", "puerto": "Puerto Bellavista Nanay", "fechaHora": "2026-11-17T08:00", "duracionHoras": 2, "precio": 30, "cupos": 12 }
+]

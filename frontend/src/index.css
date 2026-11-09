@@ -1,0 +1,92 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+main { max-width: 1000px; margin: 0 auto; padding: 16px; }
+
+h1 { font-size: 1.6rem; }
+
+.lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 { margin: 8px 0 4px; font-size: 1.3rem; }
+.card p { margin: 4px 0; }
+.empresa { color: #475569; }
+.precio { font-size: 1.3rem; font-weight: bold; color: #047857; }
+
+.tipo {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: white;
+  text-transform: capitalize;
+}
+.tipo.lancha { background: #2563eb; }
+.tipo.rapido { background: #ea580c; }
+.tipo.deslizador { background: #7c3aed; }
+
+.error { color: #b91c1c; font-weight: bold; }
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.filtros select, .filtros input, .filtros button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+}
+.filtros button { cursor: pointer; background: #0f172a; color: white; }
+
+button {
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #0f172a;
+  color: white;
+  cursor: pointer;
+}
+button:disabled { opacity: 0.6; }
+.secundario { background: #64748b; }
+.peligro { background: #b91c1c; }
+.nueva { margin-bottom: 16px; background: #047857; }
+
+.acciones { display: flex; gap: 8px; margin-top: 12px; }
+
+.form {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  display: grid;
+  gap: 10px;
+}
+.form label { display: grid; gap: 4px; font-size: 0.9rem; color: #475569; }
+.form input, .form select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
