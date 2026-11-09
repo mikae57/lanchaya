@@ -1,5 +1,6 @@
 # LanchaYa Iquitos
-Integrantes: Harold Vincen Albujar Davila, Claude.ai
+
+Integrantes: Harold Vincen Albujar Davila
 
 ## Backend
 cd backend
@@ -11,5 +12,11 @@ cd frontend
 npm install
 npm run dev   (http://localhost:5173)
 
-Endpoints: GET/POST /api/salidas, GET/PUT/DELETE /api/salidas/:id, GET /api/destinos
-Estado: backend completo y probado con Thunder Client. Frontend con listado de tarjetas implementado; filtros y formulario pendientes.
+## Endpoints
+GET/POST /api/salidas
+GET/PUT/DELETE /api/salidas/:id
+GET /api/destinos
+
+## Estado
+Backend completo (CRUD, validaciones y filtros), probado con Thunder Client.
+Frontend con listado, filtros por destino/fecha/tipo, formulario de registro y edición, y eliminación con confirmación.
