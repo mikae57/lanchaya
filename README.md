@@ -2,6 +2,8 @@
 
 Integrantes: Harold Vincen Albujar Davila
 
+Asistencia: Claude (Anthropic)
+
 ## Backend
 cd backend
 npm install
